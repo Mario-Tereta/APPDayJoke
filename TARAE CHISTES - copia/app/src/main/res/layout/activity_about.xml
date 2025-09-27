@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E1F5FE"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/aboutTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Información de la app"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0288D1"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App: Chiste del Día\nAutor: [Tu Nombre]\nReto académico: App de chistes con IA\n\n¡Gracias por usar la app! 😄"
+        android:textSize="18sp"
+        android:textColor="#333"/>
+
+</LinearLayout>
+

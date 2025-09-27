@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFDE4"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="😂 Chiste del Día 😂"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/jokeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡Presiona el botón para obtener un chiste! 😁"
+        android:textSize="20sp"
+        android:textColor="#333"
+        android:gravity="center"
+        android:background="#FFF9C4"
+        android:padding="16dp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/getJokeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Obtener chiste"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Compartir chiste"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/aboutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Acerca de"
+        android:backgroundTint="#2196F3"
+        android:textColor="#FFF"/>
+
+</LinearLayout>
